@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>XR ROLEPLAY | GTA V RP</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <a href="#" class="logo">
+
+                <i class="fa-solid fa-gamepad"></i>
+
+                XR ROLEPLAY
+
+            </a>
+
+            <nav class="navbar">
+
+                <ul class="menu">
+
+                    <li><a href="#hero">Главная</a></li>
+
+                    <li><a href="#about">О сервере</a></li>
+
+                    <li><a href="#features">Преимущества</a></li>
+
+                    <li><a href="#gallery">Галерея</a></li>
+
+                    <li><a href="#faq">FAQ</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="header-buttons">
+
+                <button class="discord">
+
+                    <i class="fab fa-discord"></i>
+
+                    Discord
+
+                </button>
+
+                <button id="openModal" class="play">
+
+                    Начать играть
+
+                </button>
+
+            </div>
+
+            <div class="menu-toggle">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="hero">
+
+        <div class="container hero-grid">
+
+            <div class="hero-left">
+
+                <span class="hero-tag">
+
+                    ● GTA V ROLEPLAY
+
+                </span>
+
+                <h1>
+
+                    Создай свою
+
+                    <span>историю</span>
+
+                    в Los Santos
+
+                </h1>
+
+                <p>
+
+                    Играй с тысячами игроков.
+
+                    Покупай автомобили,
+
+                    открывай бизнес,
+
+                    вступай во фракции
+
+                    и стань самым богатым
+
+                    жителем города.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button id="heroPlay" class="btn-main">
+
+                        Играть сейчас
+
+                    </button>
+
+                    <a href="#about" class="btn-second">
+
+                        Подробнее
+
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div class="card">
+
+                        <h2 class="counter" data-target="5000">0</h2>
+
+                        <p>Игроков</p>
+
+                    </div>
+
+                    <div class="card">
+
+                        <h2 class="counter" data-target="520">0</h2>
+
+                        <p>Автомобилей</p>
+
+                    </div>
+
+                    <div class="card">
+
+                        <h2 class="counter" data-target="25">0</h2>
+
+                        <p>Фракций</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-right">
+
+                <div class="hero-card">
+
+                    <img src="./img/238ee84db31c323844698ad1836e3d6a.jpg" alt="">
+
+                    <div class="status">
+
+                        <div class="dot"></div>
+
+                        Сервер онлайн
+
+                    </div>
+
+                    <div class="info">
+
+                        <h3>XR ROLEPLAY</h3>
+
+                        <p>Реалистичный RP сервер нового поколения</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= MODAL ================= -->
+
+    <div class="modal" id="modal">
+
+        <div class="modal-content">
+
+            <button class="close" id="closeModal">
+
+                &times;
+
+            </button>
+
+            <h2>
+
+                Добро пожаловать!
+
+            </h2>
+
+            <p>
+
+                Введите данные,
+
+                чтобы начать игру.
+
+            </p>
+
+            <form>
+
+                <input type="text" placeholder="Ваш NickName">
+
+                <input type="email" placeholder="Email">
+
+                <input type="password" placeholder="Пароль">
+
+                <button class="btn-main">
+
+                    Продолжить
+
+                </button>
+
+            </form>
+
+            <div class="modal-line">
+
+                <span></span>
+
+                ИЛИ
+
+                <span></span>
+
+            </div>
+
+            <button class="discord-login">
+
+                <i class="fab fa-discord"></i>
+
+                Войти через Discord
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>О ПРОЕКТЕ</span>
+
+                <h2>Почему именно XR ROLEPLAY?</h2>
+
+                <p>
+                    Современный GTA V RP проект с уникальными системами,
+                    реалистичной экономикой и постоянными обновлениями.
+                </p>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-card">
+
+                    <i class="fa-solid fa-city"></i>
+
+                    <h3>Большой мир</h3>
+
+                    <p>
+                        Исследуйте весь Los Santos,
+                        Blaine County и десятки уникальных мест.
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <i class="fa-solid fa-briefcase"></i>
+
+                    <h3>Работы</h3>
+
+                    <p>
+                        Более 40 профессий:
+                        полиция, EMS,
+                        механик,
+                        таксист,
+                        дальнобойщик
+                        и многое другое.
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <i class="fa-solid fa-building"></i>
+
+                    <h3>Бизнес</h3>
+
+                    <p>
+                        Создайте собственную компанию,
+                        покупайте магазины,
+                        рестораны,
+                        автосалоны.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features" id="features">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>ПРЕИМУЩЕСТВА</span>
+
+                <h2>Что вас ждёт?</h2>
+
+            </div>
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+
+                    <i class="fa-solid fa-car"></i>
+
+                    <h3>500+ автомобилей</h3>
+
+                    <p>
+                        От бюджетных седанов
+                        до гиперкаров.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <i class="fa-solid fa-house"></i>
+
+                    <h3>Недвижимость</h3>
+
+                    <p>
+                        Покупайте квартиры,
+                        дома,
+                        виллы
+                        и склады.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <i class="fa-solid fa-users"></i>
+
+                    <h3>Фракции</h3>
+
+                    <p>
+                        Полиция,
+                        EMS,
+                        FIB,
+                        Армия,
+                        Мафии,
+                        Банды.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <i class="fa-solid fa-gun"></i>
+
+                    <h3>RP события</h3>
+
+                    <p>
+                        Ежедневные мероприятия,
+                        рейды,
+                        гонки
+                        и турниры.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <i class="fa-solid fa-coins"></i>
+
+                    <h3>Экономика</h3>
+
+                    <p>
+                        Реалистичные цены,
+                        банки,
+                        кредиты,
+                        бизнес.
+                    </p>
+
+                </div>
+
+                <div class="feature-card">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                    <h3>Античит</h3>
+
+                    <p>
+                        Надёжная защита
+                        от читеров
+                        и нарушителей.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SERVER STATS ================= -->
+
+    <section class="server">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>СТАТИСТИКА</span>
+
+                <h2>Наш сервер в цифрах</h2>
+
+            </div>
+
+            <div class="server-grid">
+
+                <div class="server-card">
+
+                    <h2 class="counter" data-target="5000">0</h2>
+
+                    <p>Игроков онлайн</p>
+
+                </div>
+
+                <div class="server-card">
+
+                    <h2 class="counter" data-target="520">0</h2>
+
+                    <p>Автомобилей</p>
+
+                </div>
+
+                <div class="server-card">
+
+                    <h2 class="counter" data-target="1200">0</h2>
+
+                    <p>Домов</p>
+
+                </div>
+
+                <div class="server-card">
+
+                    <h2 class="counter" data-target="38">0</h2>
+
+                    <p>Работ</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= TOP CARS ================= -->
+
+    <section class="cars">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>ТОП ТРАНСПОРТ</span>
+
+                <h2>Популярные автомобили</h2>
+
+            </div>
+
+            <div class="cars-grid">
+
+                <div class="car">
+
+                    <img src="./img/pexels-kampratt-12513516.jpg" alt="Lamborghini Huracan">
+
+                    <h3>Lamborghini Huracan</h3>
+
+                    <p>$340 000</p>
+
+                </div>
+
+                <div class="car">
+
+                    <img src="./img/pexels-olliecraig1-16475237.jpg" alt="BMW M5 CS">
+
+                    <h3>BMW M5 CS</h3>
+
+                    <p>$180 000</p>
+
+                </div>
+
+                <div class="car">
+
+                    <img src="./img/pexels-jacobmooreimages-16124128.jpg" alt="Mercedes AMG GT">
+
+                    <h3>Mercedes AMG GT</h3>
+
+                    <p>$240 000</p>
+
+                </div>
+
+                <div class="car">
+
+                    <img src="./img/pexels-mateusz-3627236-12499801.jpg" alt="Porsche 911 Turbo">
+
+                    <h3>Porsche 911 Turbo</h3>
+
+                    <p>$295 000</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>СКРИНШОТЫ</span>
+
+                <h2>Моменты из игры</h2>
+
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <img src="./img/336d3fb07cb73b42d7d9a34f0a725da2.jpg" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="./img/2e6a517e58e40e208b826fdea0104821.jpg" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="./img/2a29de358d9052b8ef2e133a6658dc47.jpg" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="./img/356afc5cc2f2f5ef00e5459813e85af6.jpg" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="./img/77a04de09b12812b02a8e42fda079a65.jpg" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="./img/4b878870264bee3b165954a9833bd343.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= REVIEWS ================= -->
+
+    <section class="reviews">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>ОТЗЫВЫ</span>
+
+                <h2>Что говорят игроки</h2>
+
+            </div>
+
+            <div class="reviews-grid">
+
+                <div class="review-card">
+
+                    <h3>Alex_Morgan</h3>
+
+                    <span>★★★★★</span>
+
+                    <p>
+
+                        Очень качественный RP.
+                        Хороший онлайн,
+                        приятная администрация
+                        и постоянные обновления.
+
+                    </p>
+
+                </div>
+
+                <div class="review-card">
+
+                    <h3>Den_Miller</h3>
+
+                    <span>★★★★★</span>
+
+                    <p>
+
+                        Лучшая экономика
+                        из всех серверов,
+                        где я играл.
+
+                    </p>
+
+                </div>
+
+                <div class="review-card">
+
+                    <h3>Ghost</h3>
+
+                    <span>★★★★★</span>
+
+                    <p>
+
+                        Очень красивые машины
+                        и отличные RP ситуации.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FAQ ================= -->
+
+    <section class="faq" id="faq">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>FAQ</span>
+
+                <h2>Часто задаваемые вопросы</h2>
+
+            </div>
+
+            <div class="faq-box">
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+
+                        Как начать играть?
+
+                        <i class="fa-solid fa-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Скачайте GTA V,
+                            установите RageMP,
+                            зарегистрируйтесь
+                            и подключитесь к серверу.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+
+                        Есть ли донат?
+
+                        <i class="fa-solid fa-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Да,
+                            но все основные возможности
+                            доступны бесплатно.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+
+                        Какие требования к ПК?
+
+                        <i class="fa-solid fa-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Windows 10/11,
+                            8 ГБ RAM,
+                            GTX 1050 или выше.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta">
+
+        <div class="container">
+
+            <div class="cta-box">
+
+                <h2>
+
+                    Готов начать новую жизнь
+                    в Los Santos?
+
+                </h2>
+
+                <p>
+
+                    Подключайся уже сегодня
+                    и стань частью
+                    XR ROLEPLAY.
+
+                </p>
+
+                <button id="openModal2" class="btn-main">
+
+                    Играть сейчас
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <h3>XR ROLEPLAY</h3>
+
+                <p>
+
+                    Лучший игровой RP проект
+                    нового поколения.
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h4>Навигация</h4>
+
+                <ul>
+
+                    <li><a href="#hero">Главная</a></li>
+
+                    <li><a href="#about">О сервере</a></li>
+
+                    <li><a href="#gallery">Галерея</a></li>
+
+                    <li><a href="#faq">FAQ</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h4>Соцсети</h4>
+
+                <div class="footer-social">
+
+                    <a href="https://discord.com/channels/577311012236165122/onboarding"><i class="fab fa-discord"></i></a>
+
+                    <a href="https://www.youtube.com/c/GTA5RP"><i class="fab fa-youtube"></i></a>
+
+                    <a href="https://t.me/s/gta5rpofficial"><i class="fab fa-telegram"></i></a>
+
+                    <a href="https://www.tiktok.com/@gta5rp_official"><i class="fab fa-tiktok"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            <p>
+
+                © 2026 XR ROLEPLAY.
+                Все права защищены.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
