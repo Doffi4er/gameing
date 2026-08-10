@@ -1,884 +1,685 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>XR ROLEPLAY | GTA V RP</title>
+    <title>GameVerse</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- ================= HEADER ================= -->
+    <!-- HEADER -->
 
     <header class="header">
 
-        <div class="container">
+        <div class="container header-container">
 
             <a href="#" class="logo">
-
-                <i class="fa-solid fa-gamepad"></i>
-
-                XR ROLEPLAY
-
+                GAME<span>VERSE</span>
             </a>
 
-            <nav class="navbar">
+            <nav class="navigation">
 
-                <ul class="menu">
+                <ul class="nav-list">
 
-                    <li><a href="#hero">Главная</a></li>
+                    <li>
+                        <a href="#home" class="nav-link active">
+                            Home
+                        </a>
+                    </li>
 
-                    <li><a href="#about">О сервере</a></li>
+                    <li>
+                        <a href="#about" class="nav-link">
+                            About
+                        </a>
+                    </li>
 
-                    <li><a href="#features">Преимущества</a></li>
+                    <li>
+                        <a href="#games" class="nav-link">
+                            Games
+                        </a>
+                    </li>
 
-                    <li><a href="#gallery">Галерея</a></li>
+                    <li>
+                        <a href="#stats" class="nav-link">
+                            Stats
+                        </a>
+                    </li>
 
-                    <li><a href="#faq">FAQ</a></li>
+                    <li>
+                        <a href="#community" class="nav-link">
+                            Community
+                        </a>
+                    </li>
 
                 </ul>
 
             </nav>
 
-            <div class="header-buttons">
+            <!-- КНОПКА МОДАЛКИ -->
 
-                <button class="discord">
-
-                    <i class="fab fa-discord"></i>
-
-                    Discord
-
-                </button>
-
-                <button id="openModal" class="play">
-
-                    Начать играть
-
-                </button>
-
-            </div>
-
-            <div class="menu-toggle">
-
-                <i class="fa-solid fa-bars"></i>
-
-            </div>
+            <button type="button" class="header-btn" id="openModal">
+                Secret Drop
+            </button>
 
         </div>
 
     </header>
 
-    <!-- ================= HERO ================= -->
 
-    <section class="hero" id="hero">
+    <!-- HERO -->
 
-        <div class="container hero-grid">
+    <main>
 
-            <div class="hero-left">
+        <section class="hero" id="home">
 
-                <span class="hero-tag">
+            <div class="container hero-container">
 
-                    ● GTA V ROLEPLAY
+                <div class="hero-content">
 
-                </span>
+                    <p class="section-label">
+                        WELCOME TO THE GAMEVERSE
+                    </p>
 
-                <h1>
+                    <h1 class="hero-title">
+                        PLAY.
+                        <span>CONNECT.</span>
+                        WIN.
+                    </h1>
 
-                    Создай свою
+                    <p class="hero-text">
+                        Discover new worlds, play your favorite games
+                        and become part of a community made for gamers.
+                    </p>
 
-                    <span>историю</span>
+                    <div class="hero-buttons">
 
-                    в Los Santos
+                        <a href="#games" class="btn btn-primary">
+                            Explore Games
+                        </a>
 
-                </h1>
+                        <a href="#community" class="btn btn-secondary">
+                            Join Community
+                        </a>
 
-                <p>
+                    </div>
 
-                    Играй с тысячами игроков.
+                    <div class="hero-info">
 
-                    Покупай автомобили,
+                        <div class="hero-info-item">
+                            <strong>500+</strong>
+                            <span>Games</span>
+                        </div>
 
-                    открывай бизнес,
+                        <div class="hero-info-item">
+                            <strong>1M+</strong>
+                            <span>Players</span>
+                        </div>
 
-                    вступай во фракции
+                        <div class="hero-info-item">
+                            <strong>24/7</strong>
+                            <span>Online</span>
+                        </div>
 
-                    и стань самым богатым
+                    </div>
 
-                    жителем города.
+                </div>
 
-                </p>
 
-                <div class="hero-buttons">
+                <div class="hero-image-box">
 
-                    <button id="heroPlay" class="btn-main">
+                    <img class="hero-image" src="https://images.unsplash.com/photo-1542751371-adc38448a05e"
+                        alt="Gaming setup">
 
-                        Играть сейчас
+                    <div class="floating-card floating-card-top">
 
-                    </button>
+                        <div class="card-icon">
+                            🎮
+                        </div>
 
-                    <a href="#about" class="btn-second">
+                        <div>
+                            <strong>Level Up</strong>
+                            <p>Play and win</p>
+                        </div>
 
-                        Подробнее
+                    </div>
 
+
+                    <div class="floating-card floating-card-bottom">
+
+                        <span class="online-dot"></span>
+
+                        <div>
+                            <strong>12,489 Players</strong>
+                            <p>Online now</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section class="about" id="about">
+
+            <div class="container about-container">
+
+                <div class="about-content">
+
+                    <p class="section-label">
+                        ABOUT GAMEVERSE
+                    </p>
+
+                    <h2 class="section-title">
+                        More Than <span>Gaming</span>
+                    </h2>
+
+                    <p class="section-text">
+                        GameVerse is a place where gamers can discover
+                        new games, connect with other players and enjoy
+                        the world of gaming together.
+                    </p>
+
+                    <ul class="about-list">
+
+                        <li>
+                            <span class="check">✓</span>
+                            Discover new games
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Meet new players
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Join gaming events
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Become part of the community
+                        </li>
+
+                    </ul>
+
+                    <blockquote class="gaming-quote">
+                        "Gaming is not just about winning.
+                        It's about the experience."
+                    </blockquote>
+
+                </div>
+
+
+                <div class="about-image">
+
+                    <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8" alt="Gaming">
+
+                    <div class="about-image-badge">
+
+                        <strong>10+</strong>
+
+                        <span>
+                            YEARS OF<br>
+                            GAMING
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GAMES -->
+
+        <section class="section games" id="games">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="section-label">
+                            POPULAR GAMES
+                        </p>
+
+                        <h2 class="section-title">
+                            Choose Your <span>Adventure</span>
+                        </h2>
+
+                    </div>
+
+                    <a href="#games" class="text-link">
+                        View All Games →
                     </a>
 
                 </div>
 
-                <div class="hero-stats">
 
-                    <div class="card">
+                <div class="game-grid">
 
-                        <h2 class="counter" data-target="5000">0</h2>
 
-                        <p>Игроков</p>
+                    <article class="game-card game-card-large">
 
-                    </div>
+                        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420" alt="Game">
 
-                    <div class="card">
+                        <div class="game-overlay">
 
-                        <h2 class="counter" data-target="520">0</h2>
+                            <span class="game-tag">
+                                ACTION
+                            </span>
 
-                        <p>Автомобилей</p>
+                            <h3>Cyber Strike</h3>
 
-                    </div>
+                            <p>
+                                Fight your way through the future.
+                            </p>
 
-                    <div class="card">
+                            <a href="#" class="game-btn">
+                                Play Now →
+                            </a>
 
-                        <h2 class="counter" data-target="25">0</h2>
+                        </div>
 
-                        <p>Фракций</p>
+                    </article>
 
-                    </div>
+
+                    <article class="game-card">
+
+                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f" alt="Game">
+
+                        <div class="game-overlay">
+
+                            <span class="game-tag">
+                                ARCADE
+                            </span>
+
+                            <h3>Pixel Run</h3>
+
+                            <a href="#" class="game-btn">
+                                Play Now →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="game-card">
+
+                        <img src="https://images.unsplash.com/photo-1511882150382-421056c89033" alt="Game">
+
+                        <div class="game-overlay">
+
+                            <span class="game-tag">
+                                RPG
+                            </span>
+
+                            <h3>Fantasy World</h3>
+
+                            <a href="#" class="game-btn">
+                                Play Now →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="game-card">
+
+                        <img src="https://images.unsplash.com/photo-1560419015-7c427e8ae5ba" alt="Game">
+
+                        <div class="game-overlay">
+
+                            <span class="game-tag">
+                                RACING
+                            </span>
+
+                            <h3>Speed Rush</h3>
+
+                            <a href="#" class="game-btn">
+                                Play Now →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="game-card">
+
+                        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575" alt="Game">
+
+                        <div class="game-overlay">
+
+                            <span class="game-tag">
+                                ADVENTURE
+                            </span>
+
+                            <h3>Lost Island</h3>
+
+                            <a href="#" class="game-btn">
+                                Play Now →
+                            </a>
+
+                        </div>
+
+                    </article>
+
 
                 </div>
 
             </div>
 
-            <div class="hero-right">
+        </section>
 
-                <div class="hero-card">
 
-                    <img src="./img/238ee84db31c323844698ad1836e3d6a.jpg" alt="">
+        <!-- STATS -->
 
-                    <div class="status">
+        <section class="stats section" id="stats">
 
-                        <div class="dot"></div>
+            <div class="container">
 
-                        Сервер онлайн
+                <div class="stats-heading">
 
-                    </div>
+                    <p class="section-label">
+                        GAME STATS
+                    </p>
 
-                    <div class="info">
+                    <h2 class="section-title center-title">
+                        What's <span>Trending</span>
+                    </h2>
 
-                        <h3>XR ROLEPLAY</h3>
-
-                        <p>Реалистичный RP сервер нового поколения</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= MODAL ================= -->
-
-    <div class="modal" id="modal">
-
-        <div class="modal-content">
-
-            <button class="close" id="closeModal">
-
-                &times;
-
-            </button>
-
-            <h2>
-
-                Добро пожаловать!
-
-            </h2>
-
-            <p>
-
-                Введите данные,
-
-                чтобы начать игру.
-
-            </p>
-
-            <form>
-
-                <input type="text" placeholder="Ваш NickName">
-
-                <input type="email" placeholder="Email">
-
-                <input type="password" placeholder="Пароль">
-
-                <button class="btn-main">
-
-                    Продолжить
-
-                </button>
-
-            </form>
-
-            <div class="modal-line">
-
-                <span></span>
-
-                ИЛИ
-
-                <span></span>
-
-            </div>
-
-            <button class="discord-login">
-
-                <i class="fab fa-discord"></i>
-
-                Войти через Discord
-
-            </button>
-
-        </div>
-
-    </div>
-
-    <!-- ================= ABOUT ================= -->
-
-    <section class="about" id="about">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>О ПРОЕКТЕ</span>
-
-                <h2>Почему именно XR ROLEPLAY?</h2>
-
-                <p>
-                    Современный GTA V RP проект с уникальными системами,
-                    реалистичной экономикой и постоянными обновлениями.
-                </p>
-
-            </div>
-
-            <div class="about-grid">
-
-                <div class="about-card">
-
-                    <i class="fa-solid fa-city"></i>
-
-                    <h3>Большой мир</h3>
-
-                    <p>
-                        Исследуйте весь Los Santos,
-                        Blaine County и десятки уникальных мест.
+                    <p class="section-text center-text">
+                        Check the most popular games right now.
                     </p>
 
                 </div>
 
-                <div class="about-card">
 
-                    <i class="fa-solid fa-briefcase"></i>
+                <div class="stats-table-wrapper">
 
-                    <h3>Работы</h3>
+                    <table class="stats-table">
 
-                    <p>
-                        Более 40 профессий:
-                        полиция, EMS,
-                        механик,
-                        таксист,
-                        дальнобойщик
-                        и многое другое.
-                    </p>
+                        <thead>
 
-                </div>
+                            <tr>
+                                <th>Game</th>
+                                <th>Players</th>
+                                <th>Rating</th>
+                                <th>Status</th>
+                            </tr>
 
-                <div class="about-card">
+                        </thead>
 
-                    <i class="fa-solid fa-building"></i>
 
-                    <h3>Бизнес</h3>
+                        <tbody>
 
-                    <p>
-                        Создайте собственную компанию,
-                        покупайте магазины,
-                        рестораны,
-                        автосалоны.
-                    </p>
+                            <tr>
+                                <td>
+                                    <strong>Cyber Strike</strong>
+                                </td>
 
-                </div>
+                                <td>124,000</td>
 
-            </div>
+                                <td class="rating">
+                                    ★★★★★
+                                </td>
 
-        </div>
+                                <td>
+                                    <span class="status hot">
+                                        HOT
+                                    </span>
+                                </td>
+                            </tr>
 
-    </section>
 
-    <!-- ================= FEATURES ================= -->
+                            <tr>
+                                <td>
+                                    <strong>Fantasy World</strong>
+                                </td>
 
-    <section class="features" id="features">
+                                <td>98,500</td>
 
-        <div class="container">
+                                <td class="rating">
+                                    ★★★★☆
+                                </td>
 
-            <div class="section-title">
+                                <td>
+                                    <span class="status active">
+                                        ACTIVE
+                                    </span>
+                                </td>
+                            </tr>
 
-                <span>ПРЕИМУЩЕСТВА</span>
 
-                <h2>Что вас ждёт?</h2>
+                            <tr>
+                                <td>
+                                    <strong>Speed Rush</strong>
+                                </td>
 
-            </div>
+                                <td>76,200</td>
 
-            <div class="features-grid">
+                                <td class="rating">
+                                    ★★★★★
+                                </td>
 
-                <div class="feature-card">
+                                <td>
+                                    <span class="status popular">
+                                        POPULAR
+                                    </span>
+                                </td>
+                            </tr>
 
-                    <i class="fa-solid fa-car"></i>
 
-                    <h3>500+ автомобилей</h3>
+                            <tr>
+                                <td>
+                                    <strong>Lost Island</strong>
+                                </td>
 
-                    <p>
-                        От бюджетных седанов
-                        до гиперкаров.
-                    </p>
+                                <td>63,800</td>
 
-                </div>
+                                <td class="rating">
+                                    ★★★★☆
+                                </td>
 
-                <div class="feature-card">
+                                <td>
+                                    <span class="status trending">
+                                        TRENDING
+                                    </span>
+                                </td>
+                            </tr>
 
-                    <i class="fa-solid fa-house"></i>
+                        </tbody>
 
-                    <h3>Недвижимость</h3>
-
-                    <p>
-                        Покупайте квартиры,
-                        дома,
-                        виллы
-                        и склады.
-                    </p>
-
-                </div>
-
-                <div class="feature-card">
-
-                    <i class="fa-solid fa-users"></i>
-
-                    <h3>Фракции</h3>
-
-                    <p>
-                        Полиция,
-                        EMS,
-                        FIB,
-                        Армия,
-                        Мафии,
-                        Банды.
-                    </p>
-
-                </div>
-
-                <div class="feature-card">
-
-                    <i class="fa-solid fa-gun"></i>
-
-                    <h3>RP события</h3>
-
-                    <p>
-                        Ежедневные мероприятия,
-                        рейды,
-                        гонки
-                        и турниры.
-                    </p>
-
-                </div>
-
-                <div class="feature-card">
-
-                    <i class="fa-solid fa-coins"></i>
-
-                    <h3>Экономика</h3>
-
-                    <p>
-                        Реалистичные цены,
-                        банки,
-                        кредиты,
-                        бизнес.
-                    </p>
-
-                </div>
-
-                <div class="feature-card">
-
-                    <i class="fa-solid fa-shield-halved"></i>
-
-                    <h3>Античит</h3>
-
-                    <p>
-                        Надёжная защита
-                        от читеров
-                        и нарушителей.
-                    </p>
+                    </table>
 
                 </div>
 
             </div>
 
-        </div>
+        </section>
 
-    </section>
 
-    <!-- ================= SERVER STATS ================= -->
+        <!-- COMMUNITY -->
 
-    <section class="server">
+        <section class="section" id="community">
 
-        <div class="container">
+            <div class="container">
 
-            <div class="section-title">
+                <div class="community-box">
 
-                <span>СТАТИСТИКА</span>
+                    <div class="community-content">
 
-                <h2>Наш сервер в цифрах</h2>
-
-            </div>
-
-            <div class="server-grid">
-
-                <div class="server-card">
-
-                    <h2 class="counter" data-target="5000">0</h2>
-
-                    <p>Игроков онлайн</p>
-
-                </div>
-
-                <div class="server-card">
-
-                    <h2 class="counter" data-target="520">0</h2>
-
-                    <p>Автомобилей</p>
-
-                </div>
-
-                <div class="server-card">
-
-                    <h2 class="counter" data-target="1200">0</h2>
-
-                    <p>Домов</p>
-
-                </div>
-
-                <div class="server-card">
-
-                    <h2 class="counter" data-target="38">0</h2>
-
-                    <p>Работ</p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= TOP CARS ================= -->
-
-    <section class="cars">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>ТОП ТРАНСПОРТ</span>
-
-                <h2>Популярные автомобили</h2>
-
-            </div>
-
-            <div class="cars-grid">
-
-                <div class="car">
-
-                    <img src="./img/pexels-kampratt-12513516.jpg" alt="Lamborghini Huracan">
-
-                    <h3>Lamborghini Huracan</h3>
-
-                    <p>$340 000</p>
-
-                </div>
-
-                <div class="car">
-
-                    <img src="./img/pexels-olliecraig1-16475237.jpg" alt="BMW M5 CS">
-
-                    <h3>BMW M5 CS</h3>
-
-                    <p>$180 000</p>
-
-                </div>
-
-                <div class="car">
-
-                    <img src="./img/pexels-jacobmooreimages-16124128.jpg" alt="Mercedes AMG GT">
-
-                    <h3>Mercedes AMG GT</h3>
-
-                    <p>$240 000</p>
-
-                </div>
-
-                <div class="car">
-
-                    <img src="./img/pexels-mateusz-3627236-12499801.jpg" alt="Porsche 911 Turbo">
-
-                    <h3>Porsche 911 Turbo</h3>
-
-                    <p>$295 000</p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= GALLERY ================= -->
-
-    <section class="gallery" id="gallery">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>СКРИНШОТЫ</span>
-
-                <h2>Моменты из игры</h2>
-
-            </div>
-
-            <div class="gallery-grid">
-
-                <div class="gallery-item">
-                    <img src="./img/336d3fb07cb73b42d7d9a34f0a725da2.jpg" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./img/2e6a517e58e40e208b826fdea0104821.jpg" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./img/2a29de358d9052b8ef2e133a6658dc47.jpg" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./img/356afc5cc2f2f5ef00e5459813e85af6.jpg" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./img/77a04de09b12812b02a8e42fda079a65.jpg" alt="">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="./img/4b878870264bee3b165954a9833bd343.jpg" alt="">
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= REVIEWS ================= -->
-
-    <section class="reviews">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>ОТЗЫВЫ</span>
-
-                <h2>Что говорят игроки</h2>
-
-            </div>
-
-            <div class="reviews-grid">
-
-                <div class="review-card">
-
-                    <h3>Alex_Morgan</h3>
-
-                    <span>★★★★★</span>
-
-                    <p>
-
-                        Очень качественный RP.
-                        Хороший онлайн,
-                        приятная администрация
-                        и постоянные обновления.
-
-                    </p>
-
-                </div>
-
-                <div class="review-card">
-
-                    <h3>Den_Miller</h3>
-
-                    <span>★★★★★</span>
-
-                    <p>
-
-                        Лучшая экономика
-                        из всех серверов,
-                        где я играл.
-
-                    </p>
-
-                </div>
-
-                <div class="review-card">
-
-                    <h3>Ghost</h3>
-
-                    <span>★★★★★</span>
-
-                    <p>
-
-                        Очень красивые машины
-                        и отличные RP ситуации.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= FAQ ================= -->
-
-    <section class="faq" id="faq">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>FAQ</span>
-
-                <h2>Часто задаваемые вопросы</h2>
-
-            </div>
-
-            <div class="faq-box">
-
-                <div class="faq-item">
-
-                    <button class="faq-question">
-
-                        Как начать играть?
-
-                        <i class="fa-solid fa-plus"></i>
-
-                    </button>
-
-                    <div class="faq-answer">
-
-                        <p>
-
-                            Скачайте GTA V,
-                            установите RageMP,
-                            зарегистрируйтесь
-                            и подключитесь к серверу.
-
+                        <p class="section-label">
+                            JOIN US
                         </p>
 
-                    </div>
-
-                </div>
-
-                <div class="faq-item">
-
-                    <button class="faq-question">
-
-                        Есть ли донат?
-
-                        <i class="fa-solid fa-plus"></i>
-
-                    </button>
-
-                    <div class="faq-answer">
+                        <h2>
+                            Ready to <span>Play?</span>
+                        </h2>
 
                         <p>
-
-                            Да,
-                            но все основные возможности
-                            доступны бесплатно.
-
+                            Join our gaming community and connect
+                            with thousands of players.
                         </p>
+
+                        <div class="community-socials">
+                            🎮 💬 🔥
+                        </div>
 
                     </div>
 
-                </div>
 
-                <div class="faq-item">
+                    <form class="join-form">
 
-                    <button class="faq-question">
+                        <label>
 
-                        Какие требования к ПК?
+                            <span>Your Name</span>
 
-                        <i class="fa-solid fa-plus"></i>
+                            <input type="text" placeholder="Enter your name">
 
-                    </button>
+                        </label>
 
-                    <div class="faq-answer">
 
-                        <p>
+                        <label>
 
-                            Windows 10/11,
-                            8 ГБ RAM,
-                            GTX 1050 или выше.
+                            <span>Email</span>
 
-                        </p>
+                            <input type="email" placeholder="Enter your email">
 
-                    </div>
+                        </label>
 
-                </div>
 
-            </div>
+                        <label class="checkbox-label">
 
-        </div>
+                            <input type="checkbox">
 
-    </section>
+                            <span>
+                                I agree to join the GameVerse community
+                            </span>
 
-    <!-- ================= CTA ================= -->
+                        </label>
 
-    <section class="cta">
 
-        <div class="container">
+                        <button type="submit" class="btn btn-primary form-btn">
+                            Join Now
+                        </button>
 
-            <div class="cta-box">
-
-                <h2>
-
-                    Готов начать новую жизнь
-                    в Los Santos?
-
-                </h2>
-
-                <p>
-
-                    Подключайся уже сегодня
-                    и стань частью
-                    XR ROLEPLAY.
-
-                </p>
-
-                <button id="openModal2" class="btn-main">
-
-                    Играть сейчас
-
-                </button>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-
-        <div class="container footer-grid">
-
-            <div>
-
-                <h3>XR ROLEPLAY</h3>
-
-                <p>
-
-                    Лучший игровой RP проект
-                    нового поколения.
-
-                </p>
-
-            </div>
-
-            <div>
-
-                <h4>Навигация</h4>
-
-                <ul>
-
-                    <li><a href="#hero">Главная</a></li>
-
-                    <li><a href="#about">О сервере</a></li>
-
-                    <li><a href="#gallery">Галерея</a></li>
-
-                    <li><a href="#faq">FAQ</a></li>
-
-                </ul>
-
-            </div>
-
-            <div>
-
-                <h4>Соцсети</h4>
-
-                <div class="footer-social">
-
-                    <a href="https://discord.com/channels/577311012236165122/onboarding"><i class="fab fa-discord"></i></a>
-
-                    <a href="https://www.youtube.com/c/GTA5RP"><i class="fab fa-youtube"></i></a>
-
-                    <a href="https://t.me/s/gta5rpofficial"><i class="fab fa-telegram"></i></a>
-
-                    <a href="https://www.tiktok.com/@gta5rp_official"><i class="fab fa-tiktok"></i></a>
+                    </form>
 
                 </div>
 
             </div>
 
-        </div>
+        </section>
 
-        <div class="copyright">
+    </main>
 
-            <p>
 
-                © 2026 XR ROLEPLAY.
-                Все права защищены.
+    <!-- FOOTER -->
 
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <a href="#" class="logo">
+                GAME<span>VERSE</span>
+            </a>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+
+                <a href="#games">Games</a>
+
+                <a href="#community">Community</a>
+
+            </div>
+
+            <p class="copyright">
+                © 2026 GameVerse
             </p>
 
         </div>
 
     </footer>
 
-    <script src="script.js"></script>
+
+    <!-- MODAL -->
+
+    <div class="modal-overlay" id="modal">
+
+        <div class="modal">
+
+            <button type="button" class="modal-close" id="closeModal">
+                ×
+            </button>
+
+            <div class="modal-icon">
+                🎁
+            </div>
+
+            <p class="modal-label">
+                SECRET GAMING DROP
+            </p>
+
+            <h2>
+                You found a <span>Reward!</span>
+            </h2>
+
+            <p class="modal-text">
+                Congratulations! You found a secret reward.
+                Claim it and get a special bonus!
+            </p>
+
+            <div class="reward-box">
+
+                <div class="discount">
+                    <strong>-30%</strong>
+                    DISCOUNT
+                    </div>
+
+                    <div class="reward-info">
+                        <strong>GameVerse Bonus</strong>
+
+                        <p>
+                           Special reward for our players
+                        </p>
+                    </div>
+
+                </div>
+
+                <button type="button" class="modal-later" id="laterModal">
+                    Maybe later
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
+
 
 </body>
 
