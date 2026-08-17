@@ -700,11 +700,6 @@ img {
     background-color: #2a2118;
 }
 
-.active {
-    color: #00c8ff;
-    background-color: #17242a;
-}
-
 .popular {
     color: #a78bfa;
     background-color: #211b2e;
@@ -1282,4 +1277,25 @@ img {
     }
 
 
+}
+
+table tbody tr {
+  transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+table tbody tr:hover {
+  
+  transform: translateY(-0.5px); 
+  
+  
+  background-color: rgba(163, 230, 53, 0.08); 
+  
+ 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0.2px; 
 }
