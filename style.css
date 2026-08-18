@@ -302,6 +302,14 @@ img {
     border-radius: 20px;
 
     border: 1px solid #333;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-image:hover{
+    transform: translateY(-10px);
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -380,8 +388,6 @@ img {
 
 .section-title {
     font-size: 50px;
-
-    margin-bottom: 20px;
 }
 
 .section-title span {
@@ -1031,6 +1037,42 @@ img {
     line-height: 1.6;
 }
 
+.modal-img{
+    width: 85%;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modal-img:hover{
+    transform: translateY(-10px);
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.sell-img{
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    display: block;
+    margin: 0 auto 15px;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sell-img:hover{
+    transform: translateY(-10px);
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
 .reward-box {
     display: flex;
     align-items: center;
@@ -1043,15 +1085,7 @@ img {
     border-radius: 12px;
 }
 
-.discount {
-    min-width: 90px;
-    padding: 15px;
 
-    background-color: #a6ff00;
-    color: black;
-
-    border-radius: 10px;
-}
 
 .discount strong {
     display: block;
